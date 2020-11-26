@@ -1,0 +1,113 @@
+@button-text: #ffffff;
+@regular-text: #333;
+@button-tint: fadeout(#000, 90%);
+
+body {
+	text-align: center;
+	text-rendering: auto;
+	font-size: 17px;
+	line-height: 1.6em;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.bg {
+		background-image: url("lang_wall.jpg");
+		background-position: auto;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+		filter: blur(2px);
+	  	-webkit-filter: blur(2px);
+	  	height: 100%;
+}
+
+.button {
+	display: inline-block;
+	font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	position: relative;
+	padding: .8em 1.4em;
+	background: @button-colour;
+	border: none;
+	color: white;
+	transition: .9s;
+	&:before,
+	&:after {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		padding-top: inherit;
+		padding-bottom: inherit;
+		width: 2.8em;
+		content: "\00a0";
+		font-family: 'FontAwesome', sans-serif;
+		font-size: 1.2em;
+		text-align: center;
+	    min-width: 1em;
+	    min-height: 3em;
+		transition: .2s;
+		transform-origin: 50% 60%;
+	}
+	&:before {
+		background: @button-tint;
+	}
+	&:hover {
+		background-color: red;
+	}
+	&:active,
+	&:focus {
+		background: darken(@button-colour, 30%);
+		outline: none;
+	}
+}
+.button:hover {
+		background-color: #ff002f;
+	}
+.eng {
+	
+	cursor: pointer;
+    background: #e4002b;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 12px 15px 0;
+    font-family: Bebasneue, sans-serif;
+}
+
+.guj {
+	
+	cursor: pointer;
+    background: #e4002b;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 12px 15px 0;
+    font-family: Bebasneue, sans-serif;
+}
+
+.hindi {
+	
+	cursor: pointer;
+    background: #e4002b;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 12px 15px 0;
+    font-family: Bebasneue, sans-serif;
+}
