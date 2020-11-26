@@ -71,13 +71,14 @@ body {
     padding-top: 16px;
     padding-bottom: 16px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
     margin: 10px;
     border-radius: 8px;
     font-size: 20px;
     box-shadow: rgba(0, 0, 0, 0.4) 0 12px 15px 0;
-    font-family: Bebasneue, sans-serif;
+    font-family: "Source Sans Pro",sans-serif;
+    /*Bebasneue, sans-serif;*/
 }
 
 .guj {
@@ -87,13 +88,13 @@ body {
     padding-top: 16px;
     padding-bottom: 16px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
     margin: 10px;
     border-radius: 8px;
     font-size: 20px;
     box-shadow: rgba(0, 0, 0, 0.4) 0 12px 15px 0;
-    font-family: Bebasneue, sans-serif;
+    font-family: "Source Sans Pro",sans-serif;
 }
 
 .hindi {
@@ -103,11 +104,11 @@ body {
     padding-top: 16px;
     padding-bottom: 16px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
     margin: 10px;
     border-radius: 8px;
     font-size: 20px;
     box-shadow: rgba(0, 0, 0, 0.4) 0 12px 15px 0;
-    font-family: Bebasneue, sans-serif;
+    font-family: "Source Sans Pro",sans-serif;
 }
